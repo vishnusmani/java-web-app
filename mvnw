@@ -37,8 +37,7 @@
 env HTTP_PROXY="http://proxy-chain.intel.com:911"
 env HTTPS_PROXY="http://proxy-chain.intel.com:912"
 env NO_PROXY="*.intel.com,10.184.0.0/16,127.0.0.1"
-env http_proxy="http://proxy-chain.intel.com:911"
-env https_proxy="http://proxy-chain.intel.com:912"
+
 if [ -z "$MAVEN_SKIP_RC" ] ; then
 
   if [ -f /etc/mavenrc ] ; then
