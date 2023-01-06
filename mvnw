@@ -34,6 +34,11 @@
 #   MAVEN_SKIP_RC - flag to disable loading of mavenrc files
 # ----------------------------------------------------------------------------
 
+ENV HTTP_PROXY="http://proxy-chain.intel.com:911"
+ENV HTTPS_PROXY="http://proxy-chain.intel.com:912"
+ENV NO_PROXY="*.intel.com,10.184.0.0/16,127.0.0.1"
+ENV http_proxy="http://proxy-chain.intel.com:911"
+ENV https_proxy="http://proxy-chain.intel.com:912"
 if [ -z "$MAVEN_SKIP_RC" ] ; then
 
   if [ -f /etc/mavenrc ] ; then
